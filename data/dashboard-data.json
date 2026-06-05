@@ -1,8 +1,56 @@
 {
-  "lastUpdated": "2026-06-05T00:19:05Z",
-  "actionRequired": [],
+  "lastUpdated": "2026-06-05T00:21:23Z",
+  "actionRequired": [
+    {
+      "name": "Weekly Job Report for Frederico",
+      "issue": "Consecutive errors: 2",
+      "lastRun": "2026-06-01T12:00:00Z"
+    },
+    {
+      "name": "Monthly Job Report for Frederico",
+      "issue": "Consecutive errors: 1",
+      "lastRun": "2026-06-01T13:00:00Z"
+    }
+  ],
   "activeNow": [],
   "products": [],
-  "crons": [],
+  "crons": [
+    {
+      "name": "OpenClaw Gateway Watchdog",
+      "lastRun": "2026-06-05T00:15:20Z",
+      "status": "ok",
+      "errors": 0
+    },
+    {
+      "name": "Mission Control Updater",
+      "lastRun": "",
+      "status": "unknown",
+      "errors": 0
+    },
+    {
+      "name": "Daily Application Check",
+      "lastRun": "2026-06-04T12:00:00Z",
+      "status": "ok",
+      "errors": 0
+    },
+    {
+      "name": "Daily Job Search for Frederico (Real v2)",
+      "lastRun": "2026-06-04T12:01:52Z",
+      "status": "ok",
+      "errors": 0
+    },
+    {
+      "name": "Weekly Job Report for Frederico",
+      "lastRun": "2026-06-01T12:00:00Z",
+      "status": "error",
+      "errors": 2
+    },
+    {
+      "name": "Monthly Job Report for Frederico",
+      "lastRun": "2026-06-01T13:00:00Z",
+      "status": "error",
+      "errors": 1
+    }
+  ],
   "recentActivity": []
 }
