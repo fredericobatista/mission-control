@@ -1,30 +1,46 @@
 {
-  "lastUpdated": "2026-06-05T00:21:23Z",
+  "lastUpdated": "2026-06-05T00:43:37Z",
   "actionRequired": [
     {
       "name": "Weekly Job Report for Frederico",
-      "issue": "Consecutive errors: 2",
+      "issue": "Status: error, Errors: 2",
       "lastRun": "2026-06-01T12:00:00Z"
     },
     {
       "name": "Monthly Job Report for Frederico",
-      "issue": "Consecutive errors: 1",
+      "issue": "Status: error, Errors: 1",
       "lastRun": "2026-06-01T13:00:00Z"
     }
   ],
   "activeNow": [],
-  "products": [],
+  "products": [
+    {
+      "name": "Uhu Fintech",
+      "desc": "Meios de pagamento inovadores",
+      "status": "ativo"
+    },
+    {
+      "name": "14 PIX",
+      "desc": "Soluções de IA e RF para indústria/mineração",
+      "status": "expansão"
+    },
+    {
+      "name": "Módulos Odoo Custom",
+      "desc": "Desenvolvimento de funcionalidades sob medida",
+      "status": "em desenvolvimento"
+    }
+  ],
   "crons": [
     {
       "name": "OpenClaw Gateway Watchdog",
-      "lastRun": "2026-06-05T00:15:20Z",
+      "lastRun": "2026-06-05T00:40:20Z",
       "status": "ok",
       "errors": 0
     },
     {
       "name": "Mission Control Updater",
-      "lastRun": "",
-      "status": "unknown",
+      "lastRun": "2026-06-05T00:33:11Z",
+      "status": "ok",
       "errors": 0
     },
     {
@@ -52,5 +68,36 @@
       "errors": 1
     }
   ],
-  "recentActivity": []
+  "recentActivity": [
+    {
+      "name": "OpenClaw Gateway Watchdog",
+      "status": "ok",
+      "timestamp": "2026-06-05T00:40:20Z",
+      "type": "cron"
+    },
+    {
+      "name": "Mission Control Updater",
+      "status": "ok",
+      "timestamp": "2026-06-05T00:33:11Z",
+      "type": "cron"
+    },
+    {
+      "name": "Daily Job Search for Frederico (Real v2)",
+      "status": "ok",
+      "timestamp": "2026-06-04T12:01:52Z",
+      "type": "cron"
+    },
+    {
+      "name": "Daily Application Check",
+      "status": "ok",
+      "timestamp": "2026-06-04T12:00:00Z",
+      "type": "cron"
+    },
+    {
+      "name": "Monthly Job Report for Frederico",
+      "status": "error",
+      "timestamp": "2026-06-01T13:00:00Z",
+      "type": "cron"
+    }
+  ]
 }
