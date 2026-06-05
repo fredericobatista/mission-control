@@ -1,45 +1,34 @@
 {
-  "lastUpdated": "2026-06-05T00:43:37Z",
+  "lastUpdated": "2026-06-05T11:24:54Z",
   "actionRequired": [
     {
+      "name": "OpenClaw Gateway Watchdog",
+      "issue": "Consecutive errors: 2",
+      "lastRun": "2026-06-05T11:22:33Z"
+    },
+    {
       "name": "Weekly Job Report for Frederico",
-      "issue": "Status: error, Errors: 2",
+      "issue": "Consecutive errors: 2",
       "lastRun": "2026-06-01T12:00:00Z"
     },
     {
       "name": "Monthly Job Report for Frederico",
-      "issue": "Status: error, Errors: 1",
+      "issue": "Consecutive errors: 1",
       "lastRun": "2026-06-01T13:00:00Z"
     }
   ],
   "activeNow": [],
-  "products": [
-    {
-      "name": "Uhu Fintech",
-      "desc": "Meios de pagamento inovadores",
-      "status": "ativo"
-    },
-    {
-      "name": "14 PIX",
-      "desc": "Soluções de IA e RF para indústria/mineração",
-      "status": "expansão"
-    },
-    {
-      "name": "Módulos Odoo Custom",
-      "desc": "Desenvolvimento de funcionalidades sob medida",
-      "status": "em desenvolvimento"
-    }
-  ],
+  "products": [],
   "crons": [
     {
       "name": "OpenClaw Gateway Watchdog",
-      "lastRun": "2026-06-05T00:40:20Z",
-      "status": "ok",
-      "errors": 0
+      "lastRun": "2026-06-05T11:22:33Z",
+      "status": "error",
+      "errors": 2
     },
     {
       "name": "Mission Control Updater",
-      "lastRun": "2026-06-05T00:33:11Z",
+      "lastRun": "2026-06-05T11:10:10Z",
       "status": "ok",
       "errors": 0
     },
@@ -68,36 +57,5 @@
       "errors": 1
     }
   ],
-  "recentActivity": [
-    {
-      "name": "OpenClaw Gateway Watchdog",
-      "status": "ok",
-      "timestamp": "2026-06-05T00:40:20Z",
-      "type": "cron"
-    },
-    {
-      "name": "Mission Control Updater",
-      "status": "ok",
-      "timestamp": "2026-06-05T00:33:11Z",
-      "type": "cron"
-    },
-    {
-      "name": "Daily Job Search for Frederico (Real v2)",
-      "status": "ok",
-      "timestamp": "2026-06-04T12:01:52Z",
-      "type": "cron"
-    },
-    {
-      "name": "Daily Application Check",
-      "status": "ok",
-      "timestamp": "2026-06-04T12:00:00Z",
-      "type": "cron"
-    },
-    {
-      "name": "Monthly Job Report for Frederico",
-      "status": "error",
-      "timestamp": "2026-06-01T13:00:00Z",
-      "type": "cron"
-    }
-  ]
+  "recentActivity": []
 }
