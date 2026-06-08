@@ -1,30 +1,14 @@
 {
-  "lastUpdated": "2026-06-08T14:45:34Z",
+  "lastUpdated": "2026-06-08T14:49:14Z",
   "actionRequired": [
     {
       "name": "Monthly Job Report for Frederico",
-      "issue": "Status: error, Errors: 1",
+      "issue": "Consecutive errors: 1",
       "lastRun": "2026-06-01T13:00:00Z"
     }
   ],
   "activeNow": [],
-  "products": [
-    {
-      "name": "Uhu Fintech",
-      "desc": "Meios de pagamento inovadores",
-      "status": "ativo"
-    },
-    {
-      "name": "14 PIX",
-      "desc": "Soluções de IA e RF para indústria/mineração",
-      "status": "expansão"
-    },
-    {
-      "name": "Módulos Odoo Custom",
-      "desc": "Desenvolvimento de funcionalidades sob medida",
-      "status": "em desenvolvimento"
-    }
-  ],
+  "products": [],
   "crons": [
     {
       "name": "Mission Control Updater",
@@ -63,36 +47,5 @@
       "errors": 1
     }
   ],
-  "recentActivity": [
-    {
-      "name": "Mission Control Updater",
-      "status": "ok",
-      "timestamp": "2026-06-08T14:28:20Z",
-      "type": "cron"
-    },
-    {
-      "name": "Daily Job Search for Frederico (Real v2)",
-      "status": "ok",
-      "timestamp": "2026-06-08T12:07:06Z",
-      "type": "cron"
-    },
-    {
-      "name": "Daily Application Check",
-      "status": "ok",
-      "timestamp": "2026-06-08T12:06:02Z",
-      "type": "cron"
-    },
-    {
-      "name": "Weekly Job Report for Frederico",
-      "status": "ok",
-      "timestamp": "2026-06-08T12:00:00Z",
-      "type": "cron"
-    },
-    {
-      "name": "OCI Monitor Status Reporter",
-      "status": "ok",
-      "timestamp": "2026-06-08T09:03:17Z",
-      "type": "cron"
-    }
-  ]
+  "recentActivity": []
 }
