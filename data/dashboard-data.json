@@ -1,54 +1,60 @@
 {
-  "lastUpdated": "2026-06-05T11:24:54Z",
+  "lastUpdated": "2026-06-08T14:45:34Z",
   "actionRequired": [
     {
-      "name": "OpenClaw Gateway Watchdog",
-      "issue": "Consecutive errors: 2",
-      "lastRun": "2026-06-05T11:22:33Z"
-    },
-    {
-      "name": "Weekly Job Report for Frederico",
-      "issue": "Consecutive errors: 2",
-      "lastRun": "2026-06-01T12:00:00Z"
-    },
-    {
       "name": "Monthly Job Report for Frederico",
-      "issue": "Consecutive errors: 1",
+      "issue": "Status: error, Errors: 1",
       "lastRun": "2026-06-01T13:00:00Z"
     }
   ],
   "activeNow": [],
-  "products": [],
-  "crons": [
+  "products": [
     {
-      "name": "OpenClaw Gateway Watchdog",
-      "lastRun": "2026-06-05T11:22:33Z",
-      "status": "error",
-      "errors": 2
+      "name": "Uhu Fintech",
+      "desc": "Meios de pagamento inovadores",
+      "status": "ativo"
     },
     {
+      "name": "14 PIX",
+      "desc": "Soluções de IA e RF para indústria/mineração",
+      "status": "expansão"
+    },
+    {
+      "name": "Módulos Odoo Custom",
+      "desc": "Desenvolvimento de funcionalidades sob medida",
+      "status": "em desenvolvimento"
+    }
+  ],
+  "crons": [
+    {
       "name": "Mission Control Updater",
-      "lastRun": "2026-06-05T11:10:10Z",
+      "lastRun": "2026-06-08T14:28:20Z",
+      "status": "ok",
+      "errors": 0
+    },
+    {
+      "name": "OCI Monitor Status Reporter",
+      "lastRun": "2026-06-08T09:03:17Z",
       "status": "ok",
       "errors": 0
     },
     {
       "name": "Daily Application Check",
-      "lastRun": "2026-06-04T12:00:00Z",
+      "lastRun": "2026-06-08T12:06:02Z",
       "status": "ok",
       "errors": 0
     },
     {
       "name": "Daily Job Search for Frederico (Real v2)",
-      "lastRun": "2026-06-04T12:01:52Z",
+      "lastRun": "2026-06-08T12:07:06Z",
       "status": "ok",
       "errors": 0
     },
     {
       "name": "Weekly Job Report for Frederico",
-      "lastRun": "2026-06-01T12:00:00Z",
-      "status": "error",
-      "errors": 2
+      "lastRun": "2026-06-08T12:00:00Z",
+      "status": "ok",
+      "errors": 0
     },
     {
       "name": "Monthly Job Report for Frederico",
@@ -57,5 +63,36 @@
       "errors": 1
     }
   ],
-  "recentActivity": []
+  "recentActivity": [
+    {
+      "name": "Mission Control Updater",
+      "status": "ok",
+      "timestamp": "2026-06-08T14:28:20Z",
+      "type": "cron"
+    },
+    {
+      "name": "Daily Job Search for Frederico (Real v2)",
+      "status": "ok",
+      "timestamp": "2026-06-08T12:07:06Z",
+      "type": "cron"
+    },
+    {
+      "name": "Daily Application Check",
+      "status": "ok",
+      "timestamp": "2026-06-08T12:06:02Z",
+      "type": "cron"
+    },
+    {
+      "name": "Weekly Job Report for Frederico",
+      "status": "ok",
+      "timestamp": "2026-06-08T12:00:00Z",
+      "type": "cron"
+    },
+    {
+      "name": "OCI Monitor Status Reporter",
+      "status": "ok",
+      "timestamp": "2026-06-08T09:03:17Z",
+      "type": "cron"
+    }
+  ]
 }
